@@ -27,6 +27,13 @@ class HomePage extends StatelessWidget {
       image: 'assets/images/semicolon.jpg',
     ),
     Item(
+      title: 'Ending Scene',
+      artist: 'IU',
+      album: 'Palette',
+      released: 2017,
+      image: 'assets/images/palette.jpg',
+    ),
+    Item(
       title: 'HOME;RUN',
       artist: 'Seventeen',
       album: ';[Semicolon]',
@@ -55,11 +62,25 @@ class HomePage extends StatelessWidget {
       image: 'assets/images/semicolon.jpg',
     ),
     Item(
+      title: 'Love Game',
+      artist: 'Yerin-Baek',
+      album: 'tellusboutyourself',
+      released: 2020,
+      image: 'assets/images/lovegame.jpg',
+    ),
+    Item(
       title: 'Puzzel Piece',
       artist: 'NCT Dream',
       album: 'Reload',
       released: 2020,
       image: 'assets/images/reload.jpg',
+    ),
+    Item(
+      title: 'Snap Shoot',
+      artist: 'Seventeen',
+      album: 'An Ode',
+      released: 2019,
+      image: 'assets/images/anOde.jpg',
     ),
     Item(
       title: 'Switchblades',
