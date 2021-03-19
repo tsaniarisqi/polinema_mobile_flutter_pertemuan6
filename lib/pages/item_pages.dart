@@ -1,5 +1,5 @@
 import 'package:belanja/models/item.dart';
-import 'package:belanja/pages/details.dart';
+import 'package:belanja/widgets/details.dart';
 import 'package:belanja/pages/home_pages.dart';
 import 'package:flutter/material.dart';
 

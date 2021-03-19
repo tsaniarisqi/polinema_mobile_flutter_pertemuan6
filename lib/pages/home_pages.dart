@@ -1,6 +1,6 @@
 import 'package:belanja/models/item.dart';
 import 'package:belanja/pages/item_pages.dart';
-import 'package:belanja/pages/listOnHomepage.dart';
+import 'package:belanja/widgets/listOnHomepage.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
