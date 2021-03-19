@@ -1,6 +1,6 @@
 class Item {
-  String name;
-  int price;
+  String title, artist, album, image;
+  int released;
 
-  Item({this.name, this.price});
+  Item({this.title, this.artist, this.album, this.released, this.image});
 }
