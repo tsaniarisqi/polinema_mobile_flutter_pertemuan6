@@ -89,7 +89,7 @@ class HomePage extends StatelessWidget {
           margin: EdgeInsets.all(8),
           child: ListView.builder(
             padding: EdgeInsets.all(8),
-            itemCount: items.length,
+            itemCount: items.length, // untuk perulangan sebanyak itemnya
             itemBuilder: (context, index) {
               final item = items[index];
               return InkWell(

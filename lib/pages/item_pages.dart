@@ -1,4 +1,5 @@
 import 'package:belanja/models/item.dart';
+import 'package:belanja/pages/home_pages.dart';
 import 'package:flutter/material.dart';
 
 class ItemPage extends StatelessWidget {
@@ -13,6 +14,15 @@ class ItemPage extends StatelessWidget {
         appBar: AppBar(
           title: Text("Details"),
           backgroundColor: Colors.red[300],
+          leading: new IconButton(
+            icon: new Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => HomePage()),
+              );
+            },
+          ),
         ),
         body: Container(
           margin: EdgeInsets.all(20),
